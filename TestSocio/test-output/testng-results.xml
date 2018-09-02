@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63016" started-at="2018-09-01T09:59:42Z" finished-at="2018-09-01T10:00:45Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="21812" started-at="2018-09-01T09:59:42Z" finished-at="2018-09-01T10:00:04Z">
+      <class name="test.Test2">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:test.Test2@589838eb]" name="launch" is-config="true" duration-ms="3403" started-at="2018-09-01T09:59:51Z" finished-at="2018-09-01T09:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testFacebook()[pri:0, instance:test.Test2@589838eb]" name="testFacebook" duration-ms="8374" started-at="2018-09-01T09:59:54Z" finished-at="2018-09-01T10:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebook -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.Test2@589838eb]" name="closeBrowser" is-config="true" duration-ms="1177" started-at="2018-09-01T10:00:02Z" finished-at="2018-09-01T10:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Test1">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:test.Test1@271053e1]" name="launch" is-config="true" duration-ms="5701" started-at="2018-09-01T09:59:42Z" finished-at="2018-09-01T09:59:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testGoogle()[pri:0, instance:test.Test1@271053e1]" name="testGoogle" duration-ms="2221" started-at="2018-09-01T09:59:47Z" finished-at="2018-09-01T09:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.Test1@271053e1]" name="closeBrowser" is-config="true" duration-ms="884" started-at="2018-09-01T09:59:50Z" finished-at="2018-09-01T09:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- chromeTest -->
+    <test name="fireoxTest" duration-ms="63016" started-at="2018-09-01T09:59:42Z" finished-at="2018-09-01T10:00:45Z">
+      <class name="test.Test2">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:test.Test2@5c3bd550]" name="launch" is-config="true" duration-ms="8355" started-at="2018-09-01T10:00:27Z" finished-at="2018-09-01T10:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testFacebook()[pri:0, instance:test.Test2@5c3bd550]" name="testFacebook" duration-ms="6546" started-at="2018-09-01T10:00:36Z" finished-at="2018-09-01T10:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebook -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.Test2@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="2344" started-at="2018-09-01T10:00:42Z" finished-at="2018-09-01T10:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Test1">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:test.Test1@5e3a8624]" name="launch" is-config="true" duration-ms="36767" started-at="2018-09-01T09:59:42Z" finished-at="2018-09-01T10:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testGoogle()[pri:0, instance:test.Test1@5e3a8624]" name="testGoogle" duration-ms="5890" started-at="2018-09-01T10:00:19Z" finished-at="2018-09-01T10:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.Test1@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="3067" started-at="2018-09-01T10:00:24Z" finished-at="2018-09-01T10:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- fireoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

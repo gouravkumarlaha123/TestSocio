@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="4" name="fireoxTest(failed)" parallel="tests">
+    <parameter name="mBrowser" value="firefox"/>
+    <classes>
+      <class name="test.Test1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testGoogle"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- test.Test1 -->
+      <class name="test.Test2">
+        <methods>
+          <include name="testFacebook"/>
+          <include name="closeBrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- test.Test2 -->
+    </classes>
+  </test> <!-- fireoxTest(failed) -->
+  <test thread-count="4" name="chromeTest(failed)" parallel="tests">
+    <parameter name="mBrowser" value="chrome"/>
+    <classes>
+      <class name="test.Test1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testGoogle"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- test.Test1 -->
+      <class name="test.Test2">
+        <methods>
+          <include name="testFacebook"/>
+          <include name="closeBrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- test.Test2 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
